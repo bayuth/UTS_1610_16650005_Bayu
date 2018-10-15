@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KonversiFragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="@string/hello_blank_fragment" />-->
+
+
+    <Button
+        android:id="@+id/mUSD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="54dp"
+        android:text="USD -> IDR"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/mTentang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/mUSD"
+        android:layout_alignRight="@+id/mUSD"
+        android:layout_below="@+id/mUSD"
+        android:layout_marginTop="13dp"
+        android:text="ABOUT" />
+
+    <Button
+        android:id="@+id/mKeluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mTentang"
+        android:layout_alignStart="@+id/mTentang"
+        android:layout_below="@+id/mTentang"
+        android:layout_marginTop="17dp"
+        android:text="LOG OUT" />
+
+    <TextView
+        android:id="@+id/USD2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USD"
+        android:layout_alignTop="@+id/mUSD"
+        android:layout_toRightOf="@+id/hasil2"
+        android:layout_toEndOf="@+id/hasil2" />
+
+    <EditText
+        android:id="@+id/editUSD2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_below="@+id/USD2"
+        android:layout_toRightOf="@+id/mUSD"
+        android:layout_toEndOf="@+id/mUSD"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/IDR2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IDR"
+        android:layout_above="@+id/mKeluar"
+        android:layout_alignLeft="@+id/editUSD2"
+        android:layout_alignStart="@+id/editUSD2" />
+
+    <TextView
+        android:id="@+id/hasil2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mKeluar"
+        android:layout_alignLeft="@+id/IDR2"
+        android:layout_alignStart="@+id/IDR2" />
+
+    <Button
+        android:id="@+id/hitung2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_alignTop="@+id/hasil2"
+        android:layout_toRightOf="@+id/USD2"
+        android:layout_toEndOf="@+id/USD2" />
+</RelativeLayout>

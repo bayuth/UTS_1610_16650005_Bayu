@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuFragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="@string/hello_blank_fragment" />-->
+
+
+    <Button
+        android:id="@+id/konversi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USD -> IDR"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:id="@+id/tentang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT"
+
+        />
+
+    <Button
+        android:id="@+id/keluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOG OUT"
+
+        />
+
+
+</LinearLayout>
